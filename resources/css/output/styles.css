@@ -386,7 +386,8 @@ body {
   margin: 0 auto;
 }
 
-#logo {
+.logo-innisfree {
+  z-index: 100;
   width: 200rem;
   height: 0;
   position: absolute;
@@ -394,7 +395,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-#logo svg {
+.logo-innisfree svg {
   fill: var(--color-primary);
 }
 
