@@ -384,7 +384,6 @@ body {
   max-width: 1820rem;
   height: 100%;
   margin: 0 auto;
-  background: rgb(205, 252, 254);
 }
 
 #logo {
@@ -427,5 +426,34 @@ body {
   font-style: normal;
 }
 .nav-left li a i {
+  fill: var(--color-primary);
+}
+
+.nav-right {
+  float: right;
+  width: 281.82rem;
+  height: 94rem;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav-right li {
+  display: block;
+}
+.nav-right li a {
+  text-decoration: none;
+  padding: 32rem 0 32rem 40rem;
+  color: var(--color-primary);
+  font-size: var(--font-size-14);
+  font-weight: 500;
+  line-height: var(--font-lineheight-14);
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-right li a i {
   fill: var(--color-primary);
 }/*# sourceMappingURL=styles.css.map */
