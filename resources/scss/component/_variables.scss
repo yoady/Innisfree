@@ -1,10 +1,105 @@
 // 변수 설정
 
+:root {
+    /* COLOR */
+    --color-white: #fff;
+    --color-black: #231815;
+    --color-gray-100: #f8f8f8;
+    --color-gray-200: #f5f5f2;
+    --color-gray-300: #ebeae5;
+    --color-gray-400: #e0dfda;
+    --color-gray-500: #d0d0cb;
+    --color-gray-600: #acaca9;
+    --color-gray-700: #999999;
+    --color-gray-800: #666666;
+    --color-gray-900: #131313;
+    --color-primary: #133e35;
+    --color-secondary: #ff5835;
+    --color-tertiary: #fceea3;
+    --color-quaternary: #aad585;
+
+    /* FONT */
+    --font-primary: 'Zenith', serif;
+    --font-secondary: 'TheFuture', sans-serif;
+    --font-tertiary: 'Pretendard', sans-serif;
+
+    --letter-spacing: 0em;
+    --letter-spacing-ko: -0.03em;
+
+    --font-size-01: 160rem;
+    --font-size-02: 128rem;
+    --font-size-03: 100rem;
+    --font-size-04: 80rem;
+    --font-size-05: 60rem;
+    --font-size-06: 48rem;
+    --font-size-07: 32rem;
+    --font-size-08: 26rem;
+    --font-size-09: 76rem;
+    --font-size-10: 36rem;
+    --font-size-11: 30rem;
+    --font-size-12: 30rem;
+    --font-size-13: 24rem;
+    --font-size-14: 18rem;
+    --font-size-15: 15rem;
+    --font-size-16: 15rem;
+
+    --font-size-ko-01: 116rem;
+    --font-size-ko-02: 106rem;
+    --font-size-ko-03: 85rem;
+    --font-size-ko-04: 70rem;
+    --font-size-ko-05: 55rem;
+    --font-size-ko-06: 42rem;
+    --font-size-ko-07: 28rem;
+    --font-size-ko-08: 25rem;
+    --font-size-ko-09: 44rem;
+    --font-size-ko-10: 34rem;
+    --font-size-ko-11: 28rem;
+    --font-size-ko-12: 26rem;
+    --font-size-ko-13: 22rem;
+    --font-size-ko-14: 18rem;
+    --font-size-ko-15: 15rem;
+    --font-size-ko-16: 15rem;
+
+    --font-lineheight-01: 148rem;
+    --font-lineheight-02: 136rem;
+    --font-lineheight-03: 106rem;
+    --font-lineheight-04: 86rem;
+    --font-lineheight-05: 70rem;
+    --font-lineheight-06: 54rem;
+    --font-lineheight-07: 38rem;
+    --font-lineheight-08: 34rem;
+    --font-lineheight-09: 76rem;
+    --font-lineheight-10: 52rem;
+    --font-lineheight-11: 44rem;
+    --font-lineheight-12: 44rem;
+    --font-lineheight-13: 38rem;
+    --font-lineheight-14: 30rem;
+    --font-lineheight-15: 25rem;
+    --font-lineheight-16: 25rem;
+
+    --font-lineheight-ko-01: 138rem;
+    --font-lineheight-ko-02: 128rem;
+    --font-lineheight-ko-03: 100rem;
+    --font-lineheight-ko-04: 86rem;
+    --font-lineheight-ko-05: 66rem;
+    --font-lineheight-ko-06: 56rem;
+    --font-lineheight-ko-07: 36rem;
+    --font-lineheight-ko-08: 32rem;
+    --font-lineheight-ko-09: 58rem;
+    --font-lineheight-ko-10: 48rem;
+    --font-lineheight-ko-11: 40rem;
+    --font-lineheight-ko-12: 40rem;
+    --font-lineheight-ko-13: 38rem;
+    --font-lineheight-ko-14: 28rem;
+    --font-lineheight-ko-15: 24rem;
+    --font-lineheight-ko-16: 24rem;
+}
+
 $white: #fff;
 $black: #000;
 
 // ## Primary colors
-$primary: #246beb;
+$primary: #133e35;
 $primary-0: #ffffff;
 $primary-5: #eff5ff;
 $primary-10: #d3e1fb;
@@ -48,7 +143,7 @@ $gray-90: #1d1d1d;
 $gray-100: #000000;
 
 // font-style
-$font-family-base: "Noto Sans KR", sans-serif !default;
+$font-family-base: 'Noto Sans KR', sans-serif !default;
 $font-size-root: 62.5% !default; //10px 1rem으로 설정
 $font-size-base: 1.7rem !default;
 $font-color-base: $gray-90 !default;
