@@ -374,87 +374,68 @@ body {
   max-width: 1920px;
 }
 
-#header {
-  width: 100%;
-  height: 94rem;
-}
-
-.header-inner {
-  position: relative;
+.wrap {
   max-width: 1820rem;
   height: 100%;
-  margin: 0 auto;
+  position: relative;
 }
 
-.logo-innisfree {
-  z-index: 100;
-  width: 200rem;
-  height: 0;
+#header-mobile {
+  width: 100%;
+  height: 63.333rem;
+  background: darksalmon;
   position: absolute;
-  top: 15rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.logo-innisfree svg {
-  fill: var(--color-primary);
 }
 
-.nav-container {
-  position: absolute;
+.main-container {
   width: 100%;
   height: 100%;
 }
 
-.nav-left {
-  width: 394.82rem;
-  height: 94rem;
-  vertical-align: middle;
-  display: flex;
-  align-items: center;
-}
-.nav-left li {
-  display: block;
-}
-.nav-left li a {
-  text-decoration: none;
-  padding: 32rem 40rem 32rem 0;
-  color: var(--color-primary);
-  font-size: var(--font-size-14);
-  font-weight: 500;
-  line-height: var(--font-lineheight-14);
-  font-family: "Alata", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.nav-left li a i {
-  fill: var(--color-primary);
+.main-visual {
+  width: 100%;
+  height: 468.19rem;
+  background: cadetblue;
 }
 
-.nav-right {
-  float: right;
-  width: 281.82rem;
-  height: 94rem;
-  vertical-align: middle;
-  align-items: center;
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
+.main-best {
+  width: 100%;
+  height: 1226.32rem;
+  background: darkgoldenrod;
 }
-.nav-right li {
-  display: block;
+
+.main-ingredient {
+  width: 100%;
+  height: 1888rem;
+  background: pink;
 }
-.nav-right li a {
-  text-decoration: none;
-  padding: 32rem 0 32rem 40rem;
-  color: var(--color-primary);
-  font-size: var(--font-size-14);
-  font-weight: 500;
-  line-height: var(--font-lineheight-14);
-  font-family: "Alata", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
+.main-slogan {
+  width: 100%;
+  height: 188rem;
+  background: burlywood;
 }
-.nav-right li a i {
-  fill: var(--color-primary);
+
+.main-skincare {
+  width: 100%;
+  height: 646rem;
+  background: darkorchid;
+}
+
+.main-brandstory {
+  width: 100%;
+  height: 361rem;
+  background: chocolate;
+}
+
+.main-insta {
+  width: 100%;
+  height: 467rem;
+  background: aquamarine;
+}
+
+#footer-mobile {
+  width: 100%;
+  height: 551.67rem;
+  background: darkblue;
 }/*# sourceMappingURL=styles.css.map */

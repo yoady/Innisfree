@@ -9,3 +9,20 @@ body {
     box-sizing: border-box;
     max-width: 1920px;
 }
+
+.wrap {
+    max-width: 1820rem;
+    height: 100%;
+    position: relative;
+}
+
+// @mixin mobile {
+//     @media (max-width: (540px)) {
+//     }
+// }
+
+// @mixin desktop {
+//     @media (min-width: $breakpoint-md) {
+//         margin: 0 auto;
+//     }
+// }

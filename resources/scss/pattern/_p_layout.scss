@@ -1,84 +1,124 @@
-#header {
+// @mixin desktop {
+//     @media (min-width: $breakpoint-md) {
+//         #header {
+//             display: none;
+//             width: 100%;
+//             height: 94rem;
+//         }
+
+//         .header-inner {
+//             position: relative;
+//             max-width: 1820rem;
+//             height: 100%;
+//             margin: 0 auto;
+//         }
+
+//         .logo-innisfree {
+//             z-index: 100;
+//             width: 200rem;
+//             height: 0;
+//             position: absolute;
+//             top: 15rem;
+//             left: 50%;
+//             transform: translateX(-50%);
+//         }
+
+//         .nav-container {
+//             position: absolute;
+//             width: 100%;
+//             height: 100%;
+//         }
+
+//         .nav-left {
+//             width: 394.82rem;
+//             height: 94rem;
+//             vertical-align: middle;
+//             display: flex;
+//             align-items: center;
+//             li {
+//                 display: block;
+//                 a {
+//                     padding: 32rem 40rem 32rem 0;
+//                 }
+//             }
+//         }
+
+//         .nav-right {
+//             float: right;
+//             width: 280.82rem;
+//             height: 94rem;
+//             vertical-align: middle;
+//             align-items: center;
+//             display: flex;
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             li {
+//                 display: block;
+//                 a {
+//                     padding: 32rem 0 32rem 40rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+#header-mobile {
     width: 100%;
-    height: 94rem;
-}
-
-.header-inner {
-    position: relative;
-    max-width: 1820rem;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.logo-innisfree {
-    z-index: 100;
-    width: 200rem;
-    height: 0;
+    height: 63.333rem;
+    background: darksalmon;
     position: absolute;
-    top: 15rem;
-    left: 50%;
-    transform: translateX(-50%);
-    svg {
-        fill: var(--color-primary);
-    }
 }
 
-.nav-container {
-    position: absolute;
+.main-container {
     width: 100%;
     height: 100%;
 }
 
-.nav-left {
-    width: 394.82rem;
-    height: 94rem;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-    li {
-        display: block;
-        a {
-            text-decoration: none;
-            padding: 32rem 40rem 32rem 0;
-            color: var(--color-primary);
-            font-size: var(--font-size-14);
-            font-weight: 500;
-            line-height: var(--font-lineheight-14);
-            font-family: 'Alata', sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            i {
-                fill: var(--color-primary);
-            }
-        }
-    }
+.main-visual {
+    width: 100%;
+    height: 468.19rem;
+    background: cadetblue;
 }
 
-.nav-right {
-    float: right;
-    width: 281.82rem;
-    height: 94rem;
-    vertical-align: middle;
-    align-items: center;
-    display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
-    li {
-        display: block;
-        a {
-            text-decoration: none;
-            padding: 32rem 0 32rem 40rem;
-            color: var(--color-primary);
-            font-size: var(--font-size-14);
-            font-weight: 500;
-            line-height: var(--font-lineheight-14);
-            font-family: 'Alata', sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            i {
-                fill: var(--color-primary);
-            }
-        }
-    }
+.main-best {
+    width: 100%;
+    height: 1226.32rem;
+    background: darkgoldenrod;
+}
+
+.main-ingredient {
+    width: 100%;
+    height: 1888rem;
+    background: pink;
+}
+
+.main-slogan {
+    width: 100%;
+    height: 188rem;
+    background: burlywood;
+}
+
+.main-skincare {
+    width: 100%;
+    height: 646rem;
+    background: darkorchid;
+}
+
+.main-brandstory {
+    width: 100%;
+    height: 361rem;
+    background: chocolate;
+}
+
+.main-insta {
+    width: 100%;
+    height: 467rem;
+    background: aquamarine;
+}
+
+#footer-mobile {
+    width: 100%;
+    height: 551.67rem;
+    background: darkblue;
 }
