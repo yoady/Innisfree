@@ -383,8 +383,24 @@ body {
 #header-mobile {
   width: 100%;
   height: 63.333rem;
-  background: darksalmon;
   position: absolute;
+}
+#header-mobile .header-inner_m {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 16rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header-mobile .header-inner_m #logo {
+  width: 90rem;
+  height: auto;
+}
+
+.side-menu-container {
+  display: flex;
 }
 
 .main-container {
@@ -438,4 +454,48 @@ body {
   width: 100%;
   height: 551.67rem;
   background: darkblue;
+}
+
+#header-mobile {
+  border-bottom: 1px solid var(--color-gray-400);
+}
+#header-mobile svg {
+  fill: var(--color-primary);
+  display: block;
+}
+#header-mobile .search-controller {
+  position: absolute;
+  top: 20rem;
+  right: 80rem;
+}
+#header-mobile .lang-container {
+  position: absolute;
+  top: 20rem;
+  right: 40rem;
+}
+#header-mobile .small-menu-controller {
+  display: block;
+  width: 24rem;
+  height: 24rem;
+  position: absolute;
+  top: 20rem;
+  right: 15rem;
+  transition: top 0.3s;
+}
+#header-mobile .small-menu-controller__line {
+  display: block;
+  width: 20rem;
+  height: 2rem;
+  position: absolute;
+  left: 2rem;
+  background: var(--color-primary);
+}
+#header-mobile .small-menu-controller__line--01 {
+  top: 3rem;
+}
+#header-mobile .small-menu-controller__line--02 {
+  top: 11rem;
+}
+#header-mobile .small-menu-controller__line--03 {
+  top: 19rem;
 }/*# sourceMappingURL=styles.css.map */

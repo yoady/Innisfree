@@ -45,3 +45,52 @@
 //         }
 //     }
 // }
+
+#header-mobile {
+    border-bottom: 1px solid var(--color-gray-400);
+    svg {
+        fill: var(--color-primary);
+        display: block;
+    }
+
+    .search-controller {
+        position: absolute;
+        top: 20rem;
+        right: 80rem;
+    }
+
+    .lang-container {
+        position: absolute;
+        top: 20rem;
+        right: 40rem;
+    }
+
+    .small-menu-controller {
+        display: block;
+        width: 24rem;
+        height: 24rem;
+        position: absolute;
+        top: 20rem;
+        right: 15rem;
+        transition: top 0.3s;
+    }
+
+    .small-menu-controller__line {
+        display: block;
+        width: 20rem;
+        height: 2rem;
+        position: absolute;
+        left: 2rem;
+        background: var(--color-primary);
+    }
+
+    .small-menu-controller__line--01 {
+        top: 3rem;
+    }
+    .small-menu-controller__line--02 {
+        top: 11rem;
+    }
+    .small-menu-controller__line--03 {
+        top: 19rem;
+    }
+}

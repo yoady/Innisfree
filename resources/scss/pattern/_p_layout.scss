@@ -62,12 +62,27 @@
 //         }
 //     }
 // }
+// 그리드역할
 
 #header-mobile {
     width: 100%;
     height: 63.333rem;
-    background: darksalmon;
     position: absolute;
+    .header-inner_m {
+        max-width: 100%;
+        height: 100%;
+        margin: 0 16rem;
+        position: relative;
+        @include flexSpaceBetween;
+        #logo {
+            width: 90rem;
+            height: auto;
+        }
+    }
+}
+
+.side-menu-container {
+    display: flex;
 }
 
 .main-container {
